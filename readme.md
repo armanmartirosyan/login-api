@@ -9,6 +9,7 @@ This project is an Express.js API for user authentication using MySQL as the dat
   - [Endpoints](#endpoints)
   - [Request/Response Payloads](#requestresponse-payloads)
 - [Dependencies](#dependencies)
+- [Generating Keys](#generating-keys)
 - [Database Schema](#database-schema)
 - [License](#license)
 
@@ -68,6 +69,14 @@ For more details on request payloads and responses for each endpoint, please ref
 - [morgan](https://www.npmjs.com/package/morgan)
 - [mysql2](https://www.npmjs.com/package/mysql2)
 - [nodemon](https://www.npmjs.com/package/nodemon)
+
+## Generating Keys
+
+The script for generating access and refresh tokens is stored in the `helpers` folder. To use it, navigate to the project directory and run the following command:
+
+   ```bash
+   node ./helpers/generateKeys.js
+   ```
 
 ## Database Schema
 
