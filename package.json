@@ -9,7 +9,7 @@
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Arman",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
