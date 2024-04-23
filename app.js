@@ -28,10 +28,6 @@ app.use(express.static(publicDirectory));
 
 app.use("/auth", AuthRoute);
 
-app.use((req, res) => {
-	res.status(404).sendFile("./public/html/404.html", {root: __dirname})
-});
-
 app.listen(8080, () => {
 	console.log(`Server is running on port ${PORT}...`);
 });
